@@ -1,5 +1,6 @@
 ## 0.2.5 
  * Add `normalized-defn-args` helper fn for defining `s/defn`-like macros.
+ * Memoize walker computation, providing much faster checker compilation for graph-structured schemas
 
 ## 0.2.4
  * Fixed an issue that could cause ClojureScript compilation to fail
